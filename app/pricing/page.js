@@ -8,10 +8,12 @@ const Pricing = () => {
   return (
     <div>
       <div className="flex justify-center items-center mt-[80px]">
-        <p className="text-3xl">Explore our current subscription rates</p>
+        <p className="text-3xl sm:text-left text-center">
+          Explore our current subscription rates
+        </p>
       </div>
       <div className="flex justify-center items-center mt-8">
-        <p className="text-gray-400">
+        <p className="text-gray-400 sm:text-left text-center">
           Checkout out our best deals acrossour product range, and get what your
           business needs.
         </p>
@@ -37,10 +39,10 @@ const Pricing = () => {
           <p>Yearly Plans</p>
         </div>
       </div>
-      <div className="flex justify-around items-center mt-[100px]">
-        <BuyCard premiumType={"Basic"} yearly={isYearly} />
-        <BuyCard premiumType={"Basic"} yearly={isYearly} />
-        <BuyCard premiumType={"Basic"} yearly={isYearly} />
+      <div className="flex sm:flex-row flex-col justify-around items-center mt-[100px]">
+        <BuyCard premiumType={"10 Strategy"} yearly={isYearly} />
+        <BuyCard premiumType={"20 Strategy"} yearly={isYearly} />
+        <BuyCard premiumType={"Unlimited strategies"} yearly={isYearly} />
       </div>
     </div>
   );

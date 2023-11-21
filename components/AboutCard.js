@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const AboutCard = ({ imgOne, contentOne, titleOne }) => {
   return (
-    <div className="w-[25%] h-[450px] bg-teal-600 rounded-xl">
+    <div className="sm:w-[25%] w-full h-[450px] bg-teal-600 rounded-xl sm:mt-0 mt-4">
       <div className="w-full h-1/2 flex justify-center items-center">
         <Image src={imgOne} alt="one" className="w-3/4 h-3/4 rounded-xl" />
       </div>

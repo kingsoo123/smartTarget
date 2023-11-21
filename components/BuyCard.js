@@ -2,7 +2,7 @@ const BuyCard = ({ premiumType, yearly }) => {
   console.log(yearly);
   return (
     <>
-      <div className="border border-gray-400 w-[25%] h-[400px] rounded-lg">
+      <div className="border border-gray-400 sm:w-[25%] w-[90%] h-[400px] rounded-lg sm:mt-0 mt-4">
         <div className="flex justify-between items-center p-4">
           <div>
             <p className="font-bold font-mono text-2xl">{premiumType}</p>

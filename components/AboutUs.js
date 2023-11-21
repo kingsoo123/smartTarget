@@ -5,12 +5,12 @@ import three from "../assets/three.jpg";
 
 const AboutUs = () => {
   return (
-    <div className="bg-white pb-[60px] pt-[60px]">
+    <div className="bg-white pb-[60px] pt-[60px] w-full">
       <div className="flex w-full p-5 justify-center items-center">
         <p className="text-teal-600">Our strategy</p>
       </div>
       <div className="flex w-full p-5 justify-center items-center mt-[20px]">
-        <p className="text-teal-600 text-4xl w-1/2 text-center">
+        <p className="text-teal-600 text-4xl sm:w-1/2 w-full text-center">
           Recognise your target client, specify your value offer, and receive
           <span className="underline ml-1 decoration-teal-600">
             customised
@@ -18,7 +18,7 @@ const AboutUs = () => {
           marketing suggestions.
         </p>
       </div>
-      <div className="flex w-full p-5 justify-center items-center mt-[20px] space-x-4">
+      <div className="flex sm:flex-row flex-col w-full p-5 justify-center items-center mt-[20px] sm:space-x-4">
         <AboutCard
           imgOne={one}
           titleOne={"Content Marketing"}
