@@ -40,8 +40,8 @@ const Pricing = () => {
         </div>
       </div>
       <div className="flex sm:flex-row flex-col justify-around items-center mt-[100px]">
-        <BuyCard premiumType={"10 Strategy"} yearly={isYearly} />
-        <BuyCard premiumType={"20 Strategy"} yearly={isYearly} />
+        <BuyCard premiumType={"10 strategies"} yearly={isYearly} />
+        <BuyCard premiumType={"20 strategies"} yearly={isYearly} />
         <BuyCard premiumType={"Unlimited strategies"} yearly={isYearly} />
       </div>
     </div>
