@@ -6,9 +6,9 @@ import instagram from "../assets/instagram.png";
 
 const Footer = () => {
   return (
-    <div className="pt-[60px] pb-[60px] pl-8 pr-8 flex sm:flex-row flex-col justify-between items-center bg-white w-full">
+    <div className="pt-[60px] pb-[60px] pl-5 pr-5 flex sm:flex-row flex-col justify-between items-center bg-white w-full">
       <div>
-        <p className="cursor-pointer font-mono font-bold text-2xl text-teal-600">
+        <p className="cursor-pointer font-mono font-bold text-2xl text-teal-600 sm:text-left text-center">
           smart[target]
           {/* <span className="text-[#27875C]">.ai</span> */}
         </p>
@@ -22,7 +22,7 @@ const Footer = () => {
       </div>
       <p></p>
       <div className="sm:w-1/4 w-full">
-        <p className="text-teal-600 text-sm mt-[80px] sm:text-left text-center">
+        <p className="text-teal-600 text-sm mt-[80px] sm:text-right text-center">
           © 2023 Transawave Solutions Ltd (Company No.7167089). All rights
           reserved.
         </p>

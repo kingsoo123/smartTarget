@@ -24,7 +24,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="hidden w-1/2 sm:h-[500px] sm:flex justify-center items-center">
+      <div className="hidden w-1/2 sm:h-[500px] sm:flex justify-center items-center pr-[100px]">
         <Image
           src={hero}
           alt="hero"
