@@ -12,7 +12,7 @@ const AboutUs = () => {
       <div className="flex w-full p-5 justify-center items-center mt-[20px]">
         <p className="text-teal-600 text-4xl sm:w-1/2 w-full text-center">
           Recognise your target client, specify your value offer, and receive
-          <span className="underline ml-1 decoration-teal-600">
+          <span className="underline ml-1 decoration-purple-700 decoration-dashed">
             customised
           </span>{" "}
           marketing suggestions.
